@@ -1,0 +1,63 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+
+% Header Section
+\begin{document}
+\begin{minipage}{0.75\textwidth}
+    \vspace{-0.5cm}
+    \Huge \textbf{Your Name}\\
+    \normalsize \texttt{youremail@gmail.com | +91-XXXXXXXXXX | linkedin.com/in/yourprofile}
+\end{minipage}
+\begin{minipage}{0.24\textwidth}
+    \includegraphics[width=\textwidth]{your_photo.jpg}
+\end{minipage}
+
+\vspace{0.5cm}
+
+% Education Section
+\section*{Education}
+\textbf{B.Tech in Computer Science} \hfill Aug 2020 -- Present \\
+University Name, City \\
+Relevant Coursework: Data Structures, Algorithms, Blockchain, Machine Learning
+
+% Skills Section
+\section*{Skills}
+\textbf{Programming Languages:} Java, Kotlin, Python, JavaScript, Solidity \\
+\textbf{Technologies:} Firebase, Ethereum, Runway ML, MERN Stack, LaTeX \\
+\textbf{Tools:} Overleaf, Figma, Git, Docker, Linux
+
+% Experience Section
+\section*{Experience}
+\textbf{Internship at DHI (Prompt Engineer Intern)} \hfill Jun 2024 -- Aug 2024 \\
+- Developed prompt libraries for AI models like ChatGPT, focusing on text-to-video and blog automation.
+- Utilized tools from Hugging Face for content generation.
+
+\textbf{MERN Stack Developer} \hfill Jul 2024 -- Present \\
+- Working on a decentralized voting system using Ethereum blockchain with MySQL database integration.
+- Developed an online print-from-anywhere system, using blockchain for secure document handling.
+
+% Projects Section
+\section*{Projects}
+\textbf{CreatAiGenie} \hfill Jan 2024 -- Present \\
+- Developed an AI-driven content generation platform, featuring tools like DALL·E 3, ChatGPT, and video creation services.
+- Integrated daily rewards and social media interaction features.
+
+\textbf{Decentralized Voting System} \hfill Aug 2024 -- Present \\
+- Built a blockchain-based voting system, integrating MySQL for voter data and Ethereum for decentralized voting.
+
+% Achievements Section
+\section*{Achievements}
+- Finalist in Blockchain Hackathon 2023, for developing a decentralized voting system.
+- Achieved top-tier performance in DSA coding challenges on LeetCode.
+
+% Footer Section
+\vfill
+\begin{center}
+    \footnotesize Last updated: October 2024
+\end{center}
+
+\end{document}
