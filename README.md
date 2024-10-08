@@ -16,25 +16,19 @@
 
 ## Installation
 
-1. Open a terminal.
+ Download and install [Ganache](https://trufflesuite.com/ganache/).
 
-2. Clone the repository by using the command
-        
-        git clone https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain.git
+ Create a workspace named <b>developement</b>, in the truffle projects section add `truffle-config.js` by clicking `ADD PROJECT` button.
 
-3. Download and install [Ganache](https://trufflesuite.com/ganache/).
+ Download [Metamask](https://metamask.io/download/) extension for the browser.
 
-4. Create a workspace named <b>developement</b>, in the truffle projects section add `truffle-config.js` by clicking `ADD PROJECT` button.
+ Now create wallet (if you don't have one), then import accounts from ganache.
 
-5. Download [Metamask](https://metamask.io/download/) extension for the browser.
+ Add network to the metamask. ( Network name - Localhost 7575, RPC URl - http://localhost:7545, Chain ID - 1337, Currency symbol - ETH)
 
-6. Now create wallet (if you don't have one), then import accounts from ganache.
+ Open MySQL and create database named <b>voter_db</b>. (DON'T USE XAMPP)
 
-7. Add network to the metamask. ( Network name - Localhost 7575, RPC URl - http://localhost:7545, Chain ID - 1337, Currency symbol - ETH)
-
-8. Open MySQL and create database named <b>voter_db</b>. (DON'T USE XAMPP)
-
-9. In the database created, create new table named <b>voters</b> in the given format and add some values.
+ In the database created, create new table named <b>voters</b> in the given format and add some values.
 
            CREATE TABLE voters (
            voter_id VARCHAR(36) PRIMARY KEY NOT NULL,
